@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This form helps us to evaluate the impact we made to you</p>
+    <form id="survey-form">
+        <div>
+            <label for="name" id="name-label">Name:<br>
+                <input type="text" class="myInput" name="name" id="name" placeholder="Enter Your Name" required>
+            </label>
+            <br>
+            <label for="email" id="email-label">Email:<br>
+                <input type="email" name="email" class="myInput" id="email" placeholder="Enter Your Email" required>
+            </label>
+            <br>
+            <label for="age" id="number-label">Age:<br>
+                <input type="number" name="age" class="myInput" id="number" min="13" max="120"
+                    placeholder="Enter Your Age">
+            </label>
+
+            <p> How did you hear about us?<br>
+                <select id="dropdown">
+                    <option value="1">Friends</option>
+                    <option value="2">Family</option>
+                    <option value="3">FreeCodeCamp website</option>
+                </select>
+            </p>
+            
+
+            <p>Would you recommend this to someone</p>
+            <input type="checkbox" name="definetly" id="definetly" value="definetly">
+            <label for="definetly">Definitely</label>
+
+            <input type="checkbox" name="not-sure" id="not-sure" value="not-sure">
+            <label for="not-sure">Not Sure</label>
+ 
+            <input type="checkbox" name="maybe" id="maybe" value="maybe">
+            <label for="maybe">Maybe</label>
+
+            <p> How will you rate us:</p>
+
+            <input type="radio" name="rate" id="good" value="good">
+            <label for="good">Good</label>
+
+            <input type="radio" name="rate" id="average" value="average">
+            <label for="average">Average</label>
+
+            <input type="radio" name="rate" id="excellent" value="excellent">
+            <label for="excellent">Excellent</label>
+
+            <p>Did this activity help you?</p>
+
+ <input type="radio" name="activity" id="yes" value="yes">
+            <label for="yes">Yes</label>
+
+             <input type="radio" name="activity" id="not-really" value="not-really">
+            <label for="not-really">Not Really</label>
+
+             <input type="radio" name="activity" id="very-much" value="very-much">
+            <label for="very-much">Very Much</label>
+            <p>
+            <label for="comment">Any Comment:<br>
+            <textarea id="comment" name="comment" placeholder="any comment here">
+                </textarea>
+              
+        </label>
+        </p>
+        <input type="submit" id="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>
