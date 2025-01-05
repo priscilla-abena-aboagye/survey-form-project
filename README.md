@@ -1,5 +1,3 @@
-# survey-form-project
-
 # Survey Form Project
 
 A simple and responsive **Survey Form** created using HTML and CSS. This project gathers feedback from users to evaluate the impact of a given activity or service.
